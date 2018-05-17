@@ -1,0 +1,127 @@
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 400px;
+  margin-left: 80px;
+  box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -moz-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -webkit-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+/*input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+   
+	 background-color: #E91E63;
+	 border:none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	outline: 1;
+	cursor: pointer;
+}
+*/
+
+.rwd-table tr {
+ 
+  width:300px;
+ 
+}
+.rwd-table th {
+  display: none;
+ 
+	box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -moz-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -webkit-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.rwd-table td {
+  display: block;
+  box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -moz-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -webkit-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+ 
+ 
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+  
+}
+
+.rwd-table {
+ 
+  border-radius: .4em;
+  overflow: hidden;
+  background: url(../images/back.jpg);
+   /* background-color: rgba(52, 53, 53, 0.65); */
+	border:2px solid #ddd;
+	box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -moz-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  -webkit-box-shadow:0 4px 9px rgba(0,0,0,.37);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+ 
+}
+.rwd-table tr {
+  border:2px solid #ddd;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+   /*border:2px solid #ddd; */
+  
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+  
+  
+}
